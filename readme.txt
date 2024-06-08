@@ -26,6 +26,18 @@ ROM‚Ìƒoƒ“ƒN‚ÍABANK#0`#31 ‚Ì 32’Ê‚èB1ƒoƒ“ƒN16KB ‚É‚È‚è‚Ü‚·B512KB ‚Ì ROM ‚Ìæ“
     •K‚¸ƒoƒ“ƒN”Ô†‚ð‰Šú‰»‚µ‚Ä‚©‚çƒAƒNƒZƒX‚µ‚Ä‚­‚¾‚³‚¢B
 (3) ASC16 ‚Ì BANK1 ‚Ìƒoƒ“ƒNƒŒƒWƒXƒ^‚Í 7000-77FF ‚É‘¶Ý‚µ‚Ü‚·‚ªA–{ƒJ[ƒgƒŠƒbƒW‚Å‚Í 4000-7FFF ‚ª‘S‚Äƒoƒ“ƒNƒŒƒWƒXƒ^‚Å‚·B
 
+¡Šî”Â‚Ì»‘¢
+(1) https://jlcpcb.com/ ‚ð webƒuƒ‰ƒEƒU‚ÅŠJ‚«‚Ü‚·B
+(2) ‰º‹Lƒtƒ@ƒCƒ‹‚ð Add Garber File ‚Éƒhƒ‰ƒbƒO•ƒhƒƒbƒv‚µ‚Ü‚·B
+  /pcb/simple_megarom_cartridge/simple_megarom_cartridge.zip
+(3) ‚ ‚Æ‚ÍƒTƒCƒg‚ÌŽwŽ¦‚É]‚Á‚Äw“üŽè‘±‚«‚ðs‚¤‚¾‚¯‚Å‚·B
+
+Šî”Â‚ÌŒú‚Ý‚ÍAƒfƒtƒHƒ‹ƒg‚Ì 1.6mm ‚É‚µ‚Ä‚­‚¾‚³‚¢B
+ƒJ[ƒgƒŠƒbƒW‚ÌƒJ[ƒhƒGƒbƒWƒRƒlƒNƒ^•”•ª‚ÍAŠî”Â‚ÌŠp‚ðƒ„ƒXƒŠ‚È‚Ç‚ÅŽÎ‚ß‚ÉƒJƒbƒg‚·‚é‚Æ MSX ‚É‘}“ü‚µ‚â‚·‚­‚È‚è‚Ü‚·B
+ƒJ[ƒgƒŠƒbƒW‚ÍA•”•i–Ê‚ª‘O–Ê‚Å‚·(MSX‚É‘•’…‚µ‚½‚Æ‚«‚ÉŒ©‚¦‚é–Ê)B
+ƒRƒiƒ~ƒ^ƒCƒv‚ÌƒJ[ƒgƒŠƒbƒWƒVƒFƒ‹‚É‡‚í‚¹‚½ŒŠ‚ðŠJ‚¯‚Ä‚ ‚è‚Ü‚·B
+ICƒ\ƒPƒbƒg‚ðŽg‚¤‚ÆAƒJ[ƒgƒŠƒbƒWƒVƒFƒ‹‚É‚ÍŽû‚Ü‚ç‚È‚¢‚Ì‚Å‚²’ˆÓ‚­‚¾‚³‚¢B
+
 ¡‘‚«ž‚Ý
 writer ‚Ì’†‚É‚ ‚é SMEGAWRT.COM ‚ðŽg‚¤‚±‚Æ‚Å‘‚«ž‚Þ‚±‚Æ‚ªo—ˆ‚Ü‚·B
 MSX-DOSã‚ÅA
