@@ -215,7 +215,7 @@ write_images::
 			ld		a, h
 			or		a, l
 			ret		z						; 読み込めなくなったらおしまい
-			ld		bc, 0x9FFF
+			ld		bc, 0x8000
 			call	_write_8k
 			; ファイルを 8KB 読み込む
 			ld		hl, fcb
@@ -225,7 +225,7 @@ write_images::
 			ld		a, h
 			or		a, l
 			ret		z						; 読み込めなくなったらおしまい
-			ld		bc, 0xBFFF
+			ld		bc, 0xA000
 			call	_write_8k
 			; 次のバンクへ
 			ld		a, [bank_id]
@@ -268,7 +268,7 @@ write_images::
 
 	_write_8k:
 			ld		hl, 0x7000				; Bank Register
-			ld		de, 0x3FFF
+			ld		de, 0x2000
 	_loop_8k:
 			; -- 書き込みコマンド : 0x5555 : Bank#1, 0x1555 ← 0xAA
 			ld		a, 0xAA
@@ -308,10 +308,10 @@ write_images::
 			nop
 			nop
 			nop
-			dec		de
-			dec		bc
-			bit		5, d
-			jp		nz, _loop_8k
+			inc		de
+			inc		bc
+			bit		6, d
+			jp		z, _loop_8k
 			ret
 			endscope
 

@@ -1,0 +1,24 @@
+基板に取り付ける部品
+	U2 ......... 74HC574
+	U4 ......... SST39SF040A
+	U5 ......... 74HC139
+	C2,C3,C4 ... 0.1uF
+	R1-R5 ...... 4.7KΩ
+	C5 ......... 100uF
+	SW1 ........ スイッチ
+
+入手先参考
+	74HC574
+		https://www.digikey.jp/ja/products/detail/texas-instruments/SN74HC574N/277244
+	SST39SF040A
+		https://www.digikey.jp/ja/products/detail/microchip-technology/SST39SF040-70-4C-PHE/2297835
+	74HC139
+		https://www.digikey.jp/ja/products/detail/texas-instruments/SN74HC139N/376908
+	0.1uF
+		https://akizukidenshi.com/catalog/g/g104064/
+	4.7KΩ
+		https://akizukidenshi.com/catalog/g/g125472/
+	100uF
+		https://akizukidenshi.com/catalog/g/g110271/
+	スイッチ
+		https://akizukidenshi.com/catalog/g/g115707/

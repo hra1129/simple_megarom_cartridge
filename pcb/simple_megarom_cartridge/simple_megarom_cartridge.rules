@@ -1,0 +1,84 @@
+
+(rules PCB simple_megarom_cartridge
+  (snap_angle 
+    fortyfive_degree
+  )
+  (autoroute_settings
+    (fanout off)
+    (autoroute on)
+    (postroute on)
+    (vias on)
+    (via_costs 50)
+    (plane_via_costs 5)
+    (start_ripup_costs 100)
+    (start_pass_no 10)
+    (layer_rule F.Cu
+      (active on)
+      (preferred_direction horizontal)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 2.5)
+    )
+    (layer_rule B.Cu
+      (active on)
+      (preferred_direction vertical)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 1.7)
+    )
+  )
+  (rule
+    (width 250.0)
+    (clear 200.0)
+    (clear 125.0 (type smd_to_turn_gap))
+    (clear 50.0 (type smd-smd))
+  )
+  (padstack "Via[0-1]_800:400_um"
+    (shape
+      (circle F.Cu 800.0 0.0 0.0)
+    )
+    (shape
+      (circle B.Cu 800.0 0.0 0.0)
+    )
+    (attach off)
+  )
+  (via 
+    "Via[0-1]_800:400_um" "Via[0-1]_800:400_um" default
+  )
+  (via 
+    "Via[0-1]_800:400_um-kicad_default" "Via[0-1]_800:400_um" "kicad_default"
+  )
+  (via_rule
+    default "Via[0-1]_800:400_um"
+  )
+  (via_rule
+    "kicad_default" "Via[0-1]_800:400_um-kicad_default"
+  )
+  (class default
+    (clearance_class default)
+    (via_rule default)
+    (rule
+      (width 250.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class "kicad_default"
+    +5V GND "Net-(D1-K)" "Net-(D1-A)" "Net-(D2-K)" "Net-(D2-A)" "Net-(D3-K)" "Net-(D3-A)"
+    "Net-(U2-Q0)" "Net-(U2-Q1)" "Net-(U2-Q2)" "Net-(U2-Q3)" "Net-(U2-Q4)" "Net-(U4-{slash}CE)" {slash}SLTSL "unconnected-(U1-{slash}CS1-Pad1)"
+    "unconnected-(U1-{slash}CS2-Pad2)" "unconnected-(U1-{slash}CS12-Pad3)" "unconnected-(U1-{slash}RFSH-Pad6)" "unconnected-(U1-{slash}WAIT-Pad7)" "unconnected-(U1-{slash}INT-Pad8)" "unconnected-(U1-{slash}M1-Pad9)" "unconnected-(U1-{slash}BUSDIR-Pad10)" "unconnected-(U1-{slash}IORQ-Pad11)"
+    "unconnected-(U1-{slash}MERQ-Pad12)" {slash}WR {slash}RD "unconnected-(U1-{slash}RESET-Pad15)" A9 "unconnected-(U1-A15-Pad18)" A11 A10
+    A7 A6 A12 A8 A14 A13 A1 A0
+    A3 A2 A5 A4 D1 D0 D3 D2
+    D5 D4 D7 D6 "unconnected-(U1-CLOCK-Pad42)" "Net-(U1-SW1)" "unconnected-(U1-+12V-Pad48)" "unconnected-(U1-SUNDIN-Pad49)"
+    "unconnected-(U1--12V-Pad50)" "Net-(U2-Cp)" "Net-(U4-{slash}WE)" "unconnected-(U5A-O2-Pad6)" "unconnected-(U5A-O3-Pad7)" "unconnected-(U5B-O3-Pad9)" "unconnected-(U5B-O2-Pad10)" "unconnected-(U5B-O1-Pad11)"
+    "unconnected-(U5B-O0-Pad12)"
+    (clearance_class "kicad_default")
+    (via_rule "kicad_default")
+    (rule
+      (width 250.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+)
