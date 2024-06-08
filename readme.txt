@@ -26,6 +26,14 @@ ROM‚Ìƒoƒ“ƒN‚ÍABANK#0`#31 ‚Ì 32’Ê‚èB1ƒoƒ“ƒN16KB ‚É‚È‚è‚Ü‚·B512KB ‚Ì ROM ‚Ìæ“
     •K‚¸ƒoƒ“ƒN”Ô†‚ð‰Šú‰»‚µ‚Ä‚©‚çƒAƒNƒZƒX‚µ‚Ä‚­‚¾‚³‚¢B
 (3) ASC16 ‚Ì BANK1 ‚Ìƒoƒ“ƒNƒŒƒWƒXƒ^‚Í 7000-77FF ‚É‘¶Ý‚µ‚Ü‚·‚ªA–{ƒJ[ƒgƒŠƒbƒW‚Å‚Í 4000-7FFF ‚ª‘S‚Äƒoƒ“ƒNƒŒƒWƒXƒ^‚Å‚·B
 
+¡ƒRƒ“ƒZƒvƒg
+4000-7FFF ‚ªƒoƒ“ƒNƒŒƒWƒXƒ^‚É‚È‚Á‚Ä‚¢‚Ü‚·‚ªA7000-77FF ‚Ì”ÍˆÍ‚ðŽg‚Á‚Ä‚¢‚½‚¾‚­‚ÆA
+OpenMSX“™‚ÌƒGƒ~ƒ…ƒŒ[ƒ^[‚ðŽg‚Á‚ÄŠJ”­‚·‚éÛ‚ÉAASC16‚Æ‚µ‚ÄÝ’è‚·‚ê‚ÎŠú‘Ò’Ê‚è“®ì
+‚·‚é‚Ì‚ÅAASC16 ‚ÉŠñ‚¹‚½ì‚è‚É‚µ‚Ä‚¢‚Ü‚·B
+‚»‚ê‚Å‚¢‚ÄA’Ç‰Á IC ‚ÍA”Ä—pIC 2ŒÂ‚¾‚¯‚ÅÏ‚Ü‚¹‚Ü‚µ‚½B
+­‚È‚¢”Ä—pIC‚ÅAŠJ”­ƒc[ƒ‹—Þ‚ð‚»‚Ì‚Ü‚Ü—˜—p‚Å‚«‚éƒƒKROMA
+‚Æ‚¢‚¤‚Ì‚ªƒRƒ“ƒZƒvƒg‚É‚È‚Á‚Ä‚¨‚è‚Ü‚·B
+
 ¡Šî”Â‚Ì»‘¢
 (1) https://jlcpcb.com/ ‚ð webƒuƒ‰ƒEƒU‚ÅŠJ‚«‚Ü‚·B
 (2) ‰º‹Lƒtƒ@ƒCƒ‹‚ð Add Garber File ‚Éƒhƒ‰ƒbƒO•ƒhƒƒbƒv‚µ‚Ü‚·B
