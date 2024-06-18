@@ -404,27 +404,38 @@ check_slot::
 			jp		z, _no_match				; ROMじゃなかったら否
 			; page1, page2 ともに ROM だったので、IDチェック
 			ld		hl, 0x7000					; バンクレジスタのアドレス
-			ld		bc, 0x0001					; B=0, C=1
 			; -- 0x5555 => BANK#1 1555 に 0xAA 書く
-			ld		[hl], c
 			ld		a, 0xAA
+			ld		[hl], 0x01
 			ld		[0x8000 + 0x1555], a
 			; -- 0x2AAA => BANK#0 2AAA に 0x55 書く
-			ld		[hl], b
 			ld		a, 0x55
+			ld		[hl], 0x00
 			ld		[0x8000 + 0x2AAA], a
 			; -- 0x5555 => BANK#1 1555 に 0x90 書く
-			ld		[hl], c
 			ld		a, 0x90
+			ld		[hl], 0x01
 			ld		[0x8000 + 0x1555], a
 			; -- 0x0000, 0x0001 => BANK#0 0000, BANK#0 0001 を読む
-			ld		[hl], b
+			ld		[hl], 0x00
 			ld		a, [0x8000 + 0x0000]
 			cp		a, 0xBF						; 固定値
 			jp		nz, _no_match
 			ld		a, [0x8000 + 0x0001]
 			cp		a, 0xB7						; SST39SF040
 			jp		nz, _no_match
+			; -- 0x5555 => BANK#1 1555 に 0xAA 書く
+			ld		a, 0xAA
+			ld		[hl], 0x01
+			ld		[0x8000 + 0x1555], a
+			; -- 0x2AAA => BANK#0 2AAA に 0x55 書く
+			ld		a, 0x55
+			ld		[hl], 0x00
+			ld		[0x8000 + 0x2AAA], a
+			; -- 0x5555 => BANK#1 1555 に 0xF0 書く
+			ld		a, 0xF0
+			ld		[hl], 0x01
+			ld		[0x8000 + 0x1555], a
 			pop		af
 			ld		[megarom_slot], a			; 見つかった場合
 			ret
@@ -453,35 +464,35 @@ check_slot::
 ; =============================================================================
 			scope	erase_all
 erase_all::
+			call	change_to_rom
 			ld		hl, 0x7000					; バンクレジスタのアドレス
-			ld		bc, 0x0001					; B=0, C=1
 			; -- 0x5555 => BANK#1 1555 に 0xAA 書く
-			ld		[hl], c
 			ld		a, 0xAA
+			ld		[hl], 0x01
 			ld		[0x8000 + 0x1555], a
 			; -- 0x2AAA => BANK#0 2AAA に 0x55 書く
-			ld		[hl], b
 			ld		a, 0x55
+			ld		[hl], 0x00
 			ld		[0x8000 + 0x2AAA], a
-			; -- 0x5555 => BANK#1 1555 に 0x90 書く
-			ld		[hl], c
+			; -- 0x5555 => BANK#1 1555 に 0x80 書く
 			ld		a, 0x80
+			ld		[hl], 0x01
 			ld		[0x8000 + 0x1555], a
-			; -- 0x5555 => BANK#1 1555 に 0x90 書く
-			ld		[hl], c
+			; -- 0x5555 => BANK#1 1555 に 0xAA 書く
 			ld		a, 0xAA
+			ld		[hl], 0x01
 			ld		[0x8000 + 0x1555], a
 			; -- 0x2AAA => BANK#0 2AAA に 0x55 書く
-			ld		[hl], b
 			ld		a, 0x55
+			ld		[hl], 0x00
 			ld		[0x8000 + 0x2AAA], a
-			; -- 0x5555 => BANK#1 1555 に 0x90 書く
-			ld		[hl], c
+			; -- 0x5555 => BANK#1 1555 に 0x10 書く
 			ld		a, 0x10
+			ld		[hl], 0x01
 			ld		[0x8000 + 0x1555], a
 			; -- Wait Tsce (Max 100msec)
 			ei
-			ld		b, 16				; 8で十分なはずだが、少し余計に待つ
+			ld		b, 32				; 8で十分なはずだが、少し余計に待つ
 			ld		hl, jiffy
 	_wait_loop1:
 			ld		a, [hl]
