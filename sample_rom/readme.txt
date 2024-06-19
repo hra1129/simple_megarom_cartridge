@@ -7,6 +7,9 @@ PSG ‚ðŽg‚Á‚Ä’‚è‚Ü‚·B( ¦ˆê•”‚Ì PSGŒÝŠ·‰¹Œ¹“‹Ú‹@‚Å‚Í‰¹º‚ªo‚Ü‚¹‚ñBMX-101 “™
 ‰¹º‚ÍAVOICEVOX: ”LŽgƒrƒB‚³‚ñ‚ðŽg‚í‚¹‚Ä‚¢‚½‚¾‚«‚Ü‚µ‚½B
 https://voicevox.hiroshiba.jp/
 
+‰¹º‚Ì—˜—p‚ÉŠÖ‚µ‚Ä‚ÍA”LŽgƒrƒB‚³‚ñ‚Ìƒ‰ƒCƒZƒ“ƒX‹K–ñ‚ðŽç‚é•K—v‚ª‚ ‚è‚Ü‚·‚Ì‚Å‚²’ˆÓ‚­‚¾‚³‚¢B
+https://nekotukarb.wixsite.com/nekonohako/%E5%88%A9%E7%94%A8%E8%A6%8F%E7%B4%84
+
 “®ì‚µ‚Ä‚¢‚é“®‰æ
 https://x.com/thara1129/status/1803029993166921950
 
