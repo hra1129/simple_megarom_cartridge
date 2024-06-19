@@ -3,7 +3,7 @@
 	U4 ......... SST39SF040A
 	U5 ......... 74HC139
 	C2,C3,C4 ... 0.1uF
-	R1-R5 ...... 4.7KΩ
+	R1-R5 ...... 4.7KΩ～10kΩ ※全部同じ抵抗値にすること
 	C5 ......... 100uF
 	SW1 ........ スイッチ
 
@@ -22,3 +22,5 @@
 		https://akizukidenshi.com/catalog/g/g110271/
 	スイッチ
 		https://akizukidenshi.com/catalog/g/g115707/
+	カートリッジシェル
+		https://www.kadenken.com/view/item/000000001496
