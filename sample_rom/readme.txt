@@ -7,5 +7,11 @@ PSG ‚ðŽg‚Á‚Ä’‚è‚Ü‚·B( ¦ˆê•”‚Ì PSGŒÝŠ·‰¹Œ¹“‹Ú‹@‚Å‚Í‰¹º‚ªo‚Ü‚¹‚ñBMX-101 “™
 ‰¹º‚ÍAVOICEVOX: ”LŽgƒrƒB‚³‚ñ‚ðŽg‚í‚¹‚Ä‚¢‚½‚¾‚«‚Ü‚µ‚½B
 https://voicevox.hiroshiba.jp/
 
+“®ì‚µ‚Ä‚¢‚é“®‰æ
+https://x.com/thara1129/status/1803029993166921950
+
+ƒGƒ~ƒ…ƒŒ[ƒ^[‚Å“®‚©‚·ê‡‚ÍAASCII16ƒ^ƒCƒv‚ÌƒƒKƒRƒ“‚ð‘I‘ð‚µ‚Ä‚­‚¾‚³‚¢B
+
 -------------------------------------------------------------------------------
 2024/06/18 t.hara (HRA!)
+2024/06/19 t.hara (HRA!) ’Ç‹L

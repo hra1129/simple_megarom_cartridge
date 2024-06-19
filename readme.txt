@@ -20,6 +20,10 @@ BANK1‚Ì“Ç‚Ýo‚µ‚ÍABANK1‚Ìƒoƒ“ƒNƒŒƒWƒXƒ^‚ÌŽ¦‚·ƒAƒhƒŒƒX‚ÌROM‚Ì“Ç‚Ýo‚µ‚É‚È‚è‚Ü‚·
 ROM‚Ìƒoƒ“ƒN‚ÍABANK#0`#31 ‚Ì 32’Ê‚èB1ƒoƒ“ƒN16KB ‚É‚È‚è‚Ü‚·B512KB ‚Ì ROM ‚Ìæ“ª‚©‚ç 16KB‚¸‚Â‹æØ‚èA
 ‚»‚ê‚ðæ“ª‚©‚ç BANK#0, BANK#1, ... , BANK#31 ‚ÆŠ„‚è“–‚Ä‚½”Ô†‚É‚È‚è‚Ü‚·B
 
+C000-FFFF ‚Í BANK1‚Ìƒoƒ“ƒNƒŒƒWƒXƒ^‚Ìƒ~ƒ‰[‚É‚È‚Á‚Ä‚Ü‚·B‚±‚±‚É‘‚«ž‚ñ‚Å‚àƒoƒ“ƒN‚ªØ‚è‘Ö‚í‚è‚Ü‚·B
+‚Æ‚¢‚Á‚Ä‚àA’ÊíApage3 ‚Í•ÊƒXƒƒbƒg‚É‚ ‚é RAM ‚ð‘I‘ð‚µ‚Ä‚¢‚é‚ÆŽv‚¢‚Ü‚·‚Ì‚ÅA‚±‚±‚Ö‘‚«ž‚ÞŽg‚¢•û‚Í
+‚ ‚Ü‚èƒIƒXƒXƒ‚µ‚Ü‚¹‚ñB
+
 ¡ASC16‚Æ‚Ìˆá‚¢
 (1) ASC16 ‚ÍABANK0 ‚Ìƒoƒ“ƒN‚ðØ‚è‘Ö‚¦‚é‚±‚Æ‚ªo—ˆ‚Ü‚·‚ªA–{ƒJ[ƒgƒŠƒbƒW‚Å‚Í BANK0 ‚Í BANK#0 ŒÅ’è‚Å‚·B
 (2) ASC16 ‚ÍABANK1 ‚Ìƒoƒ“ƒN‚ÍƒŠƒZƒbƒgŽž‚É BANK#0 ‚É‰Šú‰»‚³‚ê‚Ü‚·‚ªA‰Šúƒoƒ“ƒN”Ô†‚Í–{ƒJ[ƒgƒŠƒbƒW‚Å‚Í•s’è‚Å‚·B
@@ -58,4 +62,5 @@ MSX-DOS‚ª‹N“®‚µ‚Ä‚©‚çƒXƒCƒbƒ`‚ðÚ‘±ó‘Ô‚Ö–ß‚·‚±‚Æ‚Å‘‚«‘Ö‚¦‚é‚±‚Æ‚ªo—ˆ‚Ü‚·B
 Ø‘ÖƒXƒCƒbƒ`‚ª•K—v‚È‚¢ê‡‚ÍAƒXƒCƒbƒ`‚ÌÚ‘±—pƒXƒ‹[ƒz[ƒ‹‚Ìã2‚Â‚ðƒVƒ‡[ƒg‚³‚¹‚ê‚ÎAí‚ÉÚ‘±ó‘Ô‚É‚È‚è‚Ü‚·B
 
 -------------------------------------------------------------------------------
-2024”N6ŒŽ9“ú ‰”Å HRA!
+2024”N6ŒŽ 9“ú ‰”Å HRA!
+2024”N6ŒŽ19“ú ’Ç‹L HRA!
