@@ -20,6 +20,9 @@
 		https://akizukidenshi.com/catalog/g/g125472/
 	100uF
 		https://akizukidenshi.com/catalog/g/g110271/
+		→ 取り付けやすいが、シェルに収まらない。
+		https://akizukidenshi.com/catalog/g/g106055/
+		→ 取り付けはちょっとだけ難しいが、シェルに収まる。
 	スイッチ
 		https://akizukidenshi.com/catalog/g/g115707/
 	カートリッジシェル
